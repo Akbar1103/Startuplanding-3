@@ -85,9 +85,17 @@ body {
     Line-height: 10px;
     padding: 25px 32px 25px 32px;
     border-radius: 10px;
-    background: #28DDB2;
-    color: #fff;
+    background: #fff;
+    color: #28DDB2;
     border: none;
+    transition: 0.4s;
+    border: 1.5px solid #28DDB2;
+}
+.header_text button:hover{
+    border-color: #28DDB2;
+    background:#28DDB2 ;
+    color: #fff;
+
 }
 
 .logos {
